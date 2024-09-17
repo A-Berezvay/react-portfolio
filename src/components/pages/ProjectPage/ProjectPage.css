@@ -1,0 +1,36 @@
+.main {
+    width: 80%;
+  }
+  
+  .project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .project h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .project button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .project button:hover {
+    background-color: #003580;
+  }
+  

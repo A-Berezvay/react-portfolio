@@ -1,0 +1,206 @@
+/* MY JOURNEY SECTION */
+
+.about-me{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: #010409;
+    color: #ffffff;
+    padding: 5em 0;
+}
+
+.about-me-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 3em 5em;
+}
+
+.my-journey{
+    border-right:1px solid #ffffff;
+    height: 100%;
+}
+
+.about-me-sections h2{
+    margin-bottom: 2em;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2em;
+  }
+
+.skills{
+    font-size: 2em;
+    position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-me{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-journey{
+        border-bottom:1px solid #ffffff;
+        border-right: 0;
+    }
+
+    .about-me-sections{
+        padding: 2em 2em;
+        width: 70%;
+    }
+
+    .skill-grid{
+        gap: 4em;
+    }
+}
+
+/* "WHAT I DO" SECTION */
+
+
+.my-work{
+    background-color: #010409;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    }
+    
+.my-work h2{
+    position: relative;
+}
+
+.offers{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+.icon-holder{
+    border-bottom: 1px white solid;
+    width: 80%;
+    height: 3em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid{
+    font-size: 2em;
+}
+
+.features-content{
+    padding: 2em 1.5em;
+    height: 100%;
+    width: 100%;
+}
+
+.features h3{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+    .my-work{
+        height: auto;
+    }
+
+    .offers{
+        flex-direction: column;
+    }
+
+    .features{
+        width: 50%;
+        margin: 1em 0;
+    }
+}
+
+/* CONTACT ME */
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* FOOTER STYLE */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2em 0;
+    background-color: #010409;
+}
+
+footer .fa-brands{
+    color: white;
+    font-size: 2em;
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+    footer img{
+        height: 40px;
+    }
+}
+
+
+/* LOADER */
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f9fb;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #7449f5;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
