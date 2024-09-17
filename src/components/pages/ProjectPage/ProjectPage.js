@@ -1,16 +1,33 @@
 import React from 'react';
 import './ProjectPage.css'; // Ensure to create a corresponding CSS file for styles
+import NatalieWebsite from '../../images/natalie_website.png';
 
 function ProjectPage() {
   return (
     <main className="main">
       <section className="project">
-        <h1>Website Development for Natali</h1>
-        <p><strong>Project Overview:</strong> Natali is an English-Italian translator who needed help integrating a language selector into her existing website.</p>
-        <p><strong>The Challenge:</strong> The site needed to allow users to switch seamlessly between English and Italian, enhancing accessibility and user experience.</p>
-        <p><strong>The Solution:</strong> Implemented a dynamic language selector using JavaScript that updates text elements on the page in real time without reloading.</p>
-        <p><strong>The Results:</strong> The new feature has improved user engagement and broadened the site’s audience. Natali reported increased satisfaction from her international clients.</p>
-        <p><strong>Testimonial:</strong> "Thanks to the technical expertise provided, my website now caters effectively to both English and Italian speaking clients." - Natali</p>
+        <h1>Website Development for Natalie</h1>
+        <article className="project-display">
+            <img src={NatalieWebsite} />
+            <div className="project-description">
+              <div>
+                <h3>Project overview</h3>
+                <p>Natalie is an English-Italian translator who needed help integrating a language selector into her existing website.</p>
+              </div>
+              <div>
+                <h3>Challange</h3>
+                <p> The site needed to allow users to switch seamlessly between English and Italian, enhancing accessibility and user experience.</p>
+              </div>
+              <div>
+                <h3>Solution</h3>
+                <p>Implemented a dynamic language selector using JavaScript that updates text elements on the page in real time without reloading.</p>
+              </div>
+              <div>
+                <h3>Result</h3>
+                <p>The new feature has improved user engagement and broadened the site’s audience. Natali reported increased satisfaction from her international clients.</p>
+              </div>
+            </div>
+        </article>
         <button>Interested in achieving similar results? Let’s talk!</button>
       </section>
 

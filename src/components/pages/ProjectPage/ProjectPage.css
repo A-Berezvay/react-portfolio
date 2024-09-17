@@ -1,17 +1,31 @@
 .main {
-    width: 80%;
-  }
+  width: 100%;
+}
   
-  .project {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
+.project {
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-display{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.project-display img{
+  width: 50%;
+}
+
+.project-description{
+  padding: 0 20px;
+}
   
   .project h1 {
-    color: #333;
     margin-bottom: 10px;
   }
   

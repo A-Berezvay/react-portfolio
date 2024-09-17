@@ -36,7 +36,7 @@ const HomePage = () => {
                 </div>
                 <div class="features-content">
                     <h3>Web Development</h3>
-                    <p>From Content Management Systems to Hand-coding, I have the ability to build <b>SEO optimised websites</b>, for diverse needs. This Portfolio itself was crafted with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>. With sharp eye for details and design I ensure that every website I develop aligns with the <b>envisioned aesthetic.</b></p>
+                    <p>From Content Management Systems to Hand-coding, I have the ability to build <b>SEO optimised websites</b>, for diverse needs. This Portfolio itself was initially crafted with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b> but for scalability reasons I transitioned to <b>React</b>. With sharp eye for details and design I ensure that every website I develop aligns with the <b>envisioned aesthetic.</b></p>
                 </div>
             </article>
             <article class="hidden features">
