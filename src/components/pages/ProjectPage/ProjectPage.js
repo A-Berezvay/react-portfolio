@@ -1,14 +1,15 @@
 import React from 'react';
 import './ProjectPage.css'; // Ensure to create a corresponding CSS file for styles
 import NatalieWebsite from '../../images/natalie_website.png';
+import ATLandingPage from '../../images/AT-Digital-Landing-page.png';
 
 function ProjectPage() {
   return (
     <main className="main">
       <section className="project">
-        <h1>Website Development for Natalie</h1>
+        <h2>Website Development for Natalie</h2>
         <article className="project-display">
-            <img src={NatalieWebsite} />
+            <img src={NatalieWebsite} alt="Home page of Natalie's website" />
             <div className="project-description">
               <div>
                 <h3>Project overview</h3>
@@ -28,17 +29,36 @@ function ProjectPage() {
               </div>
             </div>
         </article>
-        <button>Interested in achieving similar results? Let’s talk!</button>
+        <button>Need help with your website? Let’s talk!</button>
       </section>
-
       <section className="project">
-        <h1>Building My Digital Transformation Agency</h1>
-        <p><strong>Project Overview:</strong> Founded my own digital transformation and web development agency to fill a market gap for comprehensive digital services.</p>
-        <p><strong>The Challenge:</strong> To create a robust, scalable website that showcases our services and attracts potential clients.</p>
-        <p><strong>The Solution:</strong> Developed the site using React, integrated advanced SEO techniques, and ensured responsive design across all devices.</p>
-        <p><strong>The Results:</strong> The site effectively represents our brand identity and has begun to generate leads and drive conversions.</p>
-        <p><strong>Reflection:</strong> "Building this site was not only about showcasing services but also about embodying the core values and capabilities of our agency." - Myself</p>
-        <button>Interested in achieving similar results? Let’s talk!</button>
+        <h2>Building a Digital Transformation Agency</h2>
+        <article className="project-display"  id="AT-digital">
+          <img src={ATLandingPage} alt="AT Digital Consultancy's landing page" />
+          <div className="project-description">
+            <div>
+              <h3>Project Overview</h3>
+              <p>Co-Founded a digital transformation and web development agency to fill a market gap for comprehensive digital services.</p>
+            </div>
+            <div>
+              <h3>Challange</h3>
+              <p>To create a robust, scalable website that showcases our services and attracts potential clients.</p>
+            </div>
+            <div>
+              <h3>Solution</h3>
+              <p>Developed the site using HTML, CSS, JavaScript, integrated advanced SEO techniques, and ensured responsive design across all devices.</p>
+            </div>
+            <div>
+              <h3>Result</h3>
+              <p>The site effectively represents our brand identity and has begun to generate leads.</p>
+            </div>
+            <div>
+              <h3>Reflection</h3>
+              <p>"Building this site was not only about showcasing services but also about embodying the core values and capabilities of our agency." - Myself</p>
+            </div>
+          </div>
+        </article>
+        <button>Interested in making affordable website? Get in touch!</button>
       </section>
     </main>
   );

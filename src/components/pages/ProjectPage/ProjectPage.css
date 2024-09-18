@@ -17,6 +17,10 @@
     margin-bottom: 30px;
 }
 
+#AT-digital{
+  flex-direction: row-reverse;
+}
+
 .project-display img{
   width: 50%;
 }
@@ -25,8 +29,8 @@
   padding: 0 20px;
 }
   
-  .project h1 {
-    margin-bottom: 10px;
+  .project h2 {
+    margin-bottom: 50px;
   }
   
   .project p {
@@ -35,16 +39,25 @@
   }
   
   .project button {
-    background-color: #0056b3;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+    align-self: center;
+    font-size: 1em;
   }
-  
-  .project button:hover {
-    background-color: #003580;
+
+  @media screen and (max-width: 1200px){
+    .project-display{
+      flex-direction: column;
+    }
+
+    #AT-digital{
+      flex-direction: column;
+    }
+
+    .project-display img{
+      width: 100%;
+    }
+
+    .project-description{
+      padding: 30px 0;
+    }
   }
   
