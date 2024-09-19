@@ -15,7 +15,7 @@ i18n
           "contact": "Contact",
           //Home Page
           "title": "Welcome to my Portfolio",
-          "introduction": "Aspiring Web Developer. To have a look at my work navigate to the \"Projects\" tab and browse. I always welcome constructive feedback so please get in touch if you have some.🤗",
+          "introduction": "I am an aspiring Web Developer. To have a look at my work navigate to the \"Projects\" tab and browse. I always welcome constructive feedback so please get in touch if you have some.🤗",
           //About Page
           "my-journey": "My Journey",
           "my-journey-description": "Born and raised in <b>Budapest</b>, my journey began with an interest in <b>hospitality</b>, a field that I studied in secondary school. After graduation I tried my luck and moved to <b>London</b> to gain experience, meet new people and see other cultures. This experience proved to be transformative, leading to a realisation that my passion lies in <b>digital web development</b>. Motivated by this newfound interest I pursued an <b>AP degree</b> in <b>Multimedia Design & Communication</b> at <b>IBA</b> in <b>Kolding, Denmark</b>. As soon as I’ve was introduced to the world of <b>coding</b>, I’ve been building not only smaller pages, but a bigger <b>dream of helping people in the digital world</b>.",
@@ -65,8 +65,8 @@ i18n
           "projects": "Projektek",
           "contact": "Kapcsolat",
           // Home Page 
-          "title": "üdv a portfóliomon",
-          "introduction": "Törekvő webfejlesztő. Ha meg szeretnéd nézni a munkáimat, navigálj a \"Projektek\" fülre és böngéssz. Mindig szívesen fogadom az építő jellegű visszajelzéseket, szóval kérlek, vedd fel velem a kapcsolatot, ha van valami. 🤗",
+          "title": "Üdv a portfóliomon",
+          "introduction": "Egy törekvő webfejlesztő vagyok. Ha meg szeretnéd nézni a munkáimat, navigálj a \"Projektek\" fülre és böngéssz. Mindig szívesen fogadom az építő jellegű visszajelzéseket, szóval kérlek, vedd fel velem a kapcsolatot, ha van valami. 🤗",
           //About page
           "my-journey": "Történetem",
           "my-journey-description": "<b>Budapesten</b> születtem és nőttem fel, az utam pedig a <b>vendéglátás</b> iránti érdeklődéssel kezdődött, amelyet középiskolában tanultam. Az érettségi megszerzése után kipróbáltam a szerencsémet, és <b>Londonba</b> költöztem, hogy tapasztalatot szerezzek, új emberekkel találkozzak és más kultúrákat ismerjek meg. Ez az élmény sorsfordítónak bizonyult, mivel rájöttem, hogy a szenvedélyem a <b>digitális webfejlesztésben</b> rejlik. Az új érdeklődésem ösztönzött, hogy a <b>dániai Koldingban</b>, az IBA-n szerezzek egy <b>AP</b> diplomát <b>Multimédia Dizájn & Kommunikáció</b> szakon. Amint megismerkedtem a <b>programozás</b> világával, nemcsak kisebb oldalakat kezdtem építeni, hanem egy nagyobb <b>álmot</b> is, hogy <b>embereknek segítsek navigálni a digitális világban</b>.",
