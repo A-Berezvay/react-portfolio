@@ -52,7 +52,7 @@
 
     .about-me-sections{
         padding: 2em 2em;
-        width: 70%;
+        width: 100%;
     }
 
     .skill-grid{
@@ -121,14 +121,16 @@
 @media only screen and (max-width: 800px) {
     .my-work{
         height: auto;
+        width: 100%;
     }
 
     .offers{
         flex-direction: column;
+        width: 100%;
     }
 
     .features{
-        width: 50%;
+        width: 100%;
         margin: 1em 0;
     }
 }

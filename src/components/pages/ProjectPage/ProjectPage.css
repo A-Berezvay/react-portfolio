@@ -63,4 +63,23 @@
       padding: 30px 0;
     }
   }
+
+@media screen and (max-width: 800px) {
+
+  .project{
+    padding: 0;
+  }
+
+  .project-description{
+    padding: 0;
+  }
+
+  .project-description div{
+    margin: 80px 0;
+  }
+
+  .project button{
+    margin-bottom: 50px;
+  }
+}
   

@@ -19,6 +19,7 @@ i18n
           //About Page
           "my-journey": "My Journey",
           "my-journey-description": "Born and raised in <b>Budapest</b>, my journey began with an interest in <b>hospitality</b>, a field that I studied in secondary school. After graduation I tried my luck and moved to <b>London</b> to gain experience, meet new people and see other cultures. This experience proved to be transformative, leading to a realisation that my passion lies in <b>digital web development</b>. Motivated by this newfound interest I pursued an <b>AP degree</b> in <b>Multimedia Design & Communication</b> at <b>IBA</b> in <b>Kolding, Denmark</b>. As soon as I’ve was introduced to the world of <b>coding</b>, I’ve been building not only smaller pages, but a bigger <b>dream of helping people in the digital world</b>.",
+          "my skills": "My skills",
           "what i do": "What I do",
           "web development": "Web Development",
           "web development description": "From Content Management Systems to Hand-coding, I have the ability to build <b>SEO optimised websites</b>, for diverse needs. This Portfolio itself was initially crafted with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b> but for scalability reasons I transitioned to <b>React</b>. With sharp eye for details and design I ensure that every website I develop aligns with the <b>envisioned aesthetic.</b>",
@@ -70,6 +71,7 @@ i18n
           //About page
           "my-journey": "Történetem",
           "my-journey-description": "<b>Budapesten</b> születtem és nőttem fel, az utam pedig a <b>vendéglátás</b> iránti érdeklődéssel kezdődött, amelyet középiskolában tanultam. Az érettségi megszerzése után kipróbáltam a szerencsémet, és <b>Londonba</b> költöztem, hogy tapasztalatot szerezzek, új emberekkel találkozzak és más kultúrákat ismerjek meg. Ez az élmény sorsfordítónak bizonyult, mivel rájöttem, hogy a szenvedélyem a <b>digitális webfejlesztésben</b> rejlik. Az új érdeklődésem ösztönzött, hogy a <b>dániai Koldingban</b>, az IBA-n szerezzek egy <b>AP</b> diplomát <b>Multimédia Dizájn & Kommunikáció</b> szakon. Amint megismerkedtem a <b>programozás</b> világával, nemcsak kisebb oldalakat kezdtem építeni, hanem egy nagyobb <b>álmot</b> is, hogy <b>embereknek segítsek navigálni a digitális világban</b>.",
+          "my skills": "A képességeim",
           "what i do": "Mit csinálok",
           "web development": "Webfejlesztés",
           "web development description": "A tartalomkezelő rendszerektől a kézi kódolásig, képes vagyok <b>SEO-optimalizált weboldalakat építeni</b> különböző igényekhez. Ez a portfólió eredetileg <b>HTML</b>, <b>CSS</b> és <b>JavaScript</b> segítségével készült, de a skálázhatóság érdekében <b>React</b>-ra váltottam. Jó szemem van a részletekhez és a dizájnhoz, így minden weboldal amit készitek megfelel az <b>elképzelt esztétikának</b>.",

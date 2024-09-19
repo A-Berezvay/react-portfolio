@@ -10,13 +10,13 @@ const AboutPage = () => {
         <main>
         <section class="about-me">
             <article class="about-me-sections my-journey">
-                <h2 class="hidden">{t('my-journey')}</h2>
-                <p class="hidden">
+                <h2>{t('my-journey')}</h2>
+                <p>
                     <Trans i18nKey='my-journey-description' components={{ b: <b />}} />
                 </p>
             </article>
             <article class="about-me-sections">
-                <h2 class="hidden">My skills</h2>
+                <h2>{t('my skills')}</h2>
                 <div class="skill-grid">
                     <i class="hidden skills fa-brands fa-html5"></i>
                     <i class="hidden skills fa-brands fa-css3-alt"></i>
