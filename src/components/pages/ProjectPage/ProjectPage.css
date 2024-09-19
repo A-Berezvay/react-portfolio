@@ -38,10 +38,13 @@
     line-height: 1.6;
   }
   
-  .project button {
-    align-self: center;
-    font-size: 1em;
-  }
+.project a {
+  align-self: center;
+}
+
+.project button{
+  font-size: 1em;
+}
 
   @media screen and (max-width: 1200px){
     .project-display{
