@@ -1,6 +1,8 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
+const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
@@ -16,7 +18,16 @@ i18n
           "introduction": "Aspiring Web Developer. To have a look at my work navigate to the \"Projects\" tab and browse. I always welcome constructive feedback so please get in touch if you have some.🤗",
           //About Page
           "my-journey": "My Journey",
-          "my-journey-description": "Born and raised in Budapest, my journey began with an interest in hospitality, a field that I studied in secondary school. After graduation I tried my luck and moved to London to gain experience, meet new people and see other cultures. This experience proved to be transformative, leading to a realisation that my passion lies in digital web development. Motivated by this newfound interest I pursued a degree in Multimedia Design & Communication at IBA in Kolding, Denmark. As soon as I’ve was introduced to the world of coding, I’ve been building not only smaller pages, but a bigger dream of getting a Job in IT in the near future.",
+          "my-journey-description": "Born and raised in <b>Budapest</b>, my journey began with an interest in <b>hospitality</b>, a field that I studied in secondary school. After graduation I tried my luck and moved to <b>London</b> to gain experience, meet new people and see other cultures. This experience proved to be transformative, leading to a realisation that my passion lies in <b>digital web development</b>. Motivated by this newfound interest I pursued an <b>AP degree</b> in <b>Multimedia Design & Communication</b> at <b>IBA</b> in <b>Kolding, Denmark</b>. As soon as I’ve was introduced to the world of <b>coding</b>, I’ve been building not only smaller pages, but a bigger <b>dream of helping people in the digital world</b>.",
+          "what i do": "What I do",
+          "web development": "Web Development",
+          "web development description": "From Content Management Systems to Hand-coding, I have the ability to build <b>SEO optimised websites</b>, for diverse needs. This Portfolio itself was initially crafted with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b> but for scalability reasons I transitioned to <b>React</b>. With sharp eye for details and design I ensure that every website I develop aligns with the <b>envisioned aesthetic.</b>",
+          "ui/ux": "UI/UX",
+          "ui/ux description": "Imagine a digital space that <b>feels</b> like a <b>cozy</b> coffee shop; <b>welcoming</b> and <b>easy to navigate</b>. That’s what I aim for with my UI/UX design. I listen to your needs and craft experiences that make your visitors feel right at home, ensuring they find what they need with a smile.",
+          "web design": "Web Design",
+          "web design description": "Your <b>website is</b> the digital <b>face of your brand</b>, and it should be as welcoming and engaging as you are. I blend <b>colors</b>, <b>graphics</b>, and <b>typography</b> to not just catch the eye, but <b>to tell a story</b> and evoke emotions. <b>Let's collaborate</b> to make your website a place where visitors love to linger.",
+          "about cta": "Let´s work <b>together</b>",
+          "about cta button": "Contact",
           //Projects Page
           /* Natalie project */
           "project1": "Website Development for Natalie",
@@ -58,7 +69,16 @@ i18n
           "introduction": "Törekvő webfejlesztő. Ha meg szeretnéd nézni a munkáimat, navigálj a \"Projektek\" fülre és böngéssz. Mindig szívesen fogadom az építő jellegű visszajelzéseket, szóval kérlek, vedd fel velem a kapcsolatot, ha van valami. 🤗",
           //About page
           "my-journey": "Történetem",
-          "my-journey-description": "Budapesten születtem és nőttem fel, az utam pedig a vendéglátás iránti érdeklődéssel kezdődött, amelyet középiskolában tanultam. Az érettségi megszerzése után kipróbáltam a szerencsémet, és Londonba költöztem, hogy tapasztalatot szerezzek, új emberekkel találkozzak és más kultúrákat ismerjek meg. Ez az élmény sorsfordítónak bizonyult, mivel rájöttem, hogy a szenvedélyem a digitális webfejlesztésben rejlik. Az új érdeklődésem ösztönzött, hogy a dániai Koldingban, az IBA-n szereztem diplomát Multimédia tervezés és kommunikáció szakon. Amint megismerkedtem a programozás világával, nemcsak kisebb oldalakat kezdtem építeni, hanem egy nagyobb álmot is, hogy a közeljövőben munkát szerezzek az IT területén.",
+          "my-journey-description": "<b>Budapesten</b> születtem és nőttem fel, az utam pedig a <b>vendéglátás</b> iránti érdeklődéssel kezdődött, amelyet középiskolában tanultam. Az érettségi megszerzése után kipróbáltam a szerencsémet, és <b>Londonba</b> költöztem, hogy tapasztalatot szerezzek, új emberekkel találkozzak és más kultúrákat ismerjek meg. Ez az élmény sorsfordítónak bizonyult, mivel rájöttem, hogy a szenvedélyem a <b>digitális webfejlesztésben</b> rejlik. Az új érdeklődésem ösztönzött, hogy a <b>dániai Koldingban</b>, az IBA-n szerezzek egy <b>AP</b> diplomát <b>Multimédia Dizájn & Kommunikáció</b> szakon. Amint megismerkedtem a <b>programozás</b> világával, nemcsak kisebb oldalakat kezdtem építeni, hanem egy nagyobb <b>álmot</b> is, hogy <b>embereknek segítsek navigálni a digitális világban</b>.",
+          "what i do": "Mit csinálok",
+          "web development": "Webfejlesztés",
+          "web development description": "A tartalomkezelő rendszerektől a kézi kódolásig, képes vagyok <b>SEO-optimalizált weboldalakat építeni</b> különböző igényekhez. Ez a portfólió eredetileg <b>HTML</b>, <b>CSS</b> és <b>JavaScript</b> segítségével készült, de a skálázhatóság érdekében <b>React</b>-ra váltottam. Jó szemem van a részletekhez és a dizájnhoz, így minden weboldal amit készitek megfelel az <b>elképzelt esztétikának</b>.",
+          "ui/ux": "UI/UX",
+          "ui/ux description": "Képzelj el egy digitális teret, ami <b>olyan</b>, mint egy <b>kávézó</b>; <b>hívogató</b> és <b>könnyen navigálható</b>. Erre törekszem a UI/UX tervezéssel. Meghallgatom az igényeket, és olyan élményeket alakítok ki, amelyeken a látogatók otthonosan érzhetik magukat, biztosítva, hogy mosollyal találják meg, amit keresnek.",
+          "web design": "Web dizájn",
+          "web design description": "A <b>weboldal</b> a <b>digitális arca</b> a <b>márkádnak</b>, és éppoly <b>hívogatónak  kell lennie</b>, mint <b>Neked</b>. <b>Színeket</b>, <b>grafikákat</b> és <b>tipográfiát</b> ötvözök, hogy ne csak megragadjam a figyelmet, hanem <b>történetet meséljek</b> el és érzelmeket idézzek elő. <b>Dolgozzunk együtt</b>, hogy a weboldalad olyan hely legyen, ahol a látogatók szeretnek időt tölteni.",
+          "about cta": "Dolgozzunk <b>együtt</b>",
+          "about cta button": "Lépj kapcsolatba",
           //Projects Page
           /* Natalie project */
           "project1": "Weboldal fejlesztés Natalie-nak",
@@ -90,7 +110,7 @@ i18n
         }
       }
     },
-    lng: "en", // language to use
+    lng: savedLanguage, // language to use
     fallbackLng: "en", // use en if detected lng is not available
 
     interpolation: {

@@ -1,4 +1,5 @@
 import React from 'react';
+import './i18n/i18n';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/common/Header/Header';
 import HomePage from './components/pages/HomePage/HomePage';
