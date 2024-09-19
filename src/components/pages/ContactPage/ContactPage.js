@@ -7,7 +7,7 @@ function ContactPage() {
 
     return (
         <main className='contactForm'>
-            <form>
+            <form action="https://formspree.io/f/xnnaygkj" method="POST">
                 <label for="name">{t('full name')}</label>
                 <input type="text" id="name" name="name" placeholder="Joe Doe" required />
                 <label for="email">{t('email address')}</label>
