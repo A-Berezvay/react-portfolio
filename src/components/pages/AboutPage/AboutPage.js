@@ -73,7 +73,7 @@ const AboutPage = () => {
         </section>
         <section class="contact-me">
             <h2><Trans i18nKey='about cta' components={{ b: <b />}} /></h2>
-            <a href="/contact.html"><button>{t('about cta button')}</button></a>
+            <a href="/contact"><button>{t('about cta button')}</button></a>
         </section>
         </main>
     );
