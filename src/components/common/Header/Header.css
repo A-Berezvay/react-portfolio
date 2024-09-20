@@ -55,7 +55,7 @@ header nav ul {
 @media only screen and (max-width: 1023px) {
     header nav ul {
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         padding: 100px 0;
         position: fixed;
         font-size: 1.5em;
@@ -73,8 +73,12 @@ header nav ul {
     #contact-button button {
         width: 100%; /* Ensures full width to align text centrally */
         text-align: center; /* Aligns text centrally within the block */
-        margin: 10px 0; /* Provides consistent margin */
-        padding: 12px 0; /* Pads button and links for better touch target size */
+        margin: 30px 0; /* Provides consistent margin */
+    }
+
+    header nav ul button{
+        font-size: .75em;
+        margin-bottom: 50px;
     }
 
     header nav ul.show-menu {
