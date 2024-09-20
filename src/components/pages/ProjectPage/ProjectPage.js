@@ -12,7 +12,10 @@ function ProjectPage() {
       <section className="project">
         <h2>{t('project1')}</h2>
         <article className="project-display">
-            <img src={NatalieWebsite} alt="Home page of Natalie's website" />
+            <div className="display-image">
+              <a href="https://www.natalieingham.com/en/home" target="_blank"><img src={NatalieWebsite} alt="Home page of Natalie's website" /></a>
+              <p>{t('project image')}</p>
+            </div>
             <div className="project-description">
               <div>
                 <h3>{t('project overview')}</h3>
@@ -37,7 +40,10 @@ function ProjectPage() {
       <section className="project">
         <h2>{t('project2')}</h2>
         <article className="project-display"  id="AT-digital">
-          <img src={ATLandingPage} alt="AT Digital Consultancy's landing page" />
+          <div className="display-image">
+          <a href="https://atdigitalconsultancy.co.uk/" target="_blank"><img src={ATLandingPage} alt="AT Digital Consultancy's landing page" /></a>
+          <p>{t('project image')}</p>
+          </div>
           <div className="project-description">
             <div>
               <h3>{t('project overview')}</h3>

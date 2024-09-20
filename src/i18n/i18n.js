@@ -40,6 +40,7 @@ i18n
           "Natlaie challenge": "The site needed to allow users to switch seamlessly between English and Italian, enhancing accessibility and user experience.",
           "Natalie solution": "Implemented a dynamic language selector using JavaScript that updates text elements on the page.",
           "Natalie result": "The new feature has improved user engagement and broadened the site’s audience. Natali reported increased satisfaction from her international clients.",
+          "project image": "(Click on the image to see the website)",
           "Natalie button": "Need help with your website? Let’s talk!",
           /* AT Digital Consultancy project */
           "project2": "Building an Agency",
@@ -92,6 +93,7 @@ i18n
           "Natlaie challenge": "A weboldalnak lehetővé kellett tennie a felhasználók számára, hogy zökkenőmentesen váltsanak angol és olasz nyelv között, javítva az elérhetőséget és a felhasználói élményt.",
           "Natalie solution": "Dinamikus nyelvválasztót valósítottam meg JavaScript segítségével, amely valós időben frissíti az oldal szövegeit.",
           "Natalie result": "Az új funkció javította a felhasználói elkötelezettséget és szélesítette a weboldal közönségét. Natalie megnövekedett elégedettségről számolt be nemzetközi ügyfelei részéről.",
+          "project image": "(Kattints a képre, hogy lásd a weboldalt)",
           "Natalie button": "Segítség kell a weboldaladdal? Lépjünk kapcsolatba!",
           /* AT project */
           "project2": "Egy ügynökség létrehozása",
