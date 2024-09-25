@@ -10,26 +10,21 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created using create-react-app" />
     <script src="https://kit.fontawesome.com/484a70a94f.js" crossorigin="anonymous"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11118720386">
-    </script>
+    <!-- Google tags (gtag.js) for Google Ads and Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11118720386"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() {
+        dataLayer.push(arguments);
+      }
       gtag('js', new Date());
 
-      gtag('config', 'AW-11118720386');
+      // Configure both Google Ads and Google Analytics with one tag
+      gtag('config', 'AW-11118720386'); // Google Ads tracking ID
+      gtag('config', 'G-ZGFZ03RB3X');   // Google Analytics tracking ID
     </script>
     <title>Albert Berezvay | Personal Portfolio</title>
   </head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZGFZ03RB3X"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-ZGFZ03RB3X');
-  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
