@@ -1,0 +1,17 @@
+/* Footer.css */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20%;
+  }
+  
+  .footer i {
+    margin: 0 10px;
+    color: white; /* Adjust the icon color */
+    font-size: 2em;
+  }
+  
+  .footer i:hover {
+    color: #D9D1B8; /* Hover effect */
+  }
+  

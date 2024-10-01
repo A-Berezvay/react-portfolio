@@ -2,6 +2,7 @@ import React from 'react';
 import './i18n/i18n';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/common/Header/Header';
+import Footer from './components/common/Footer/Footer';
 import HomePage from './components/pages/HomePage/HomePage';
 import AboutPage from './components/pages/AboutPage/AboutPage';
 import ProjectPage from './components/pages/ProjectPage/ProjectPage';
@@ -17,6 +18,7 @@ function App() {
         <Route path='/project' element={<ProjectPage />} />
         <Route path='/contact' element={<ContactPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
