@@ -9,6 +9,7 @@ i18n
     resources: {
       en: {
         translation: {
+          "schedule button": "Schedule a free consultation",
           //Header
           "about": "About",
           "projects": "Projects",
@@ -62,6 +63,7 @@ i18n
       },
       hu: {
         translation: {
+          "schedule button": "Foglalj ingyenes konzultációt",
           //Header
           "about": "Rólam",
           "projects": "Projektek",
