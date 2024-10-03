@@ -1,4 +1,5 @@
 import React from 'react';
+import PageTitle from '../../utils/pageTitle';
 import { useTranslation } from 'react-i18next'; // Translation
 import './ProjectPage.css'; // Ensure to create a corresponding CSS file for styles
 import NatalieWebsite from '../../images/natalie_website.png';
@@ -9,6 +10,7 @@ function ProjectPage() {
   
   return (
     <main className="main">
+      <PageTitle title={t('projects title')} />
       <section className="project">
         <h2>{t('project1')}</h2>
         <article className="project-display">

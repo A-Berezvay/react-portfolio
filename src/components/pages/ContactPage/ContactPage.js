@@ -1,4 +1,5 @@
 import React from 'react';
+import PageTitle from '../../utils/pageTitle';
 import { useTranslation } from 'react-i18next'; // Translation
 import './ContactPage.css';
 
@@ -22,6 +23,7 @@ function ContactPage() {
     
     return (
         <main className='contactForm'>
+            <PageTitle title={t('contact title')} />
             <form 
                 action="https://formspree.io/f/xnnaygkj" 
                 method="POST"

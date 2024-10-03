@@ -1,4 +1,5 @@
 import React from 'react';
+import PageTitle from '../../utils/pageTitle';
 import { Trans } from 'react-i18next';
 import { useTranslation } from 'react-i18next'; // Translation
 import './AboutPage.css';
@@ -8,6 +9,7 @@ const AboutPage = () => {
     
     return (
         <main>
+        <PageTitle title={t('about title')} />
         <section class="about-me">
             <article class="about-me-sections my-journey">
                 <h2>{t('my-journey')}</h2>

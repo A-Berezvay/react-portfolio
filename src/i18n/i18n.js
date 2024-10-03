@@ -10,6 +10,10 @@ i18n
       en: {
         translation: {
           "schedule button": "Schedule a free consultation",
+          //Titles 
+          "about title": "About - Albert Berezvay",
+          "projects title": "Projects - Albert Berezvay",
+          "contact title": "Contact - Albert Berezvay",
           //Header
           "about": "About",
           "projects": "Projects",
@@ -64,6 +68,10 @@ i18n
       hu: {
         translation: {
           "schedule button": "Foglalj ingyenes konzultációt",
+          //Titles
+          "about title": "Rólam - Albert Berezvay",
+          "projects title": "Projektek - Albert Berezvay",
+          "contact title": "Kapcsolat - Albert Berezvay",
           //Header
           "about": "Rólam",
           "projects": "Projektek",
