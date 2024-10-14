@@ -1,0 +1,77 @@
+/* FORM DESIGN*/
+
+.contactForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 70%;
+    width: 50%;
+    padding: 20px 0;
+    margin: 20px 0;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+ label {
+      color: black;
+  }
+
+label,
+input,
+textarea {
+    display: block; /* Display form elements as block elements for better spacing */
+    margin-bottom: 10px; /* Add space between form elements */
+  }
+
+
+
+input {
+      border: none;
+      border-bottom: 2px grey solid;
+      background: none;
+      outline: none;
+      width: 90%;
+      transition: all 0.3s ease-in;
+  }
+
+input:focus {
+    border-bottom: 3px black solid;
+  }
+
+textarea {
+      width: 90%;
+  }
+
+@media only screen and (max-width: 1000px) {
+  form {
+    width: 100%;
+  }
+
+  button {
+    font-family: "Cambo", serif;
+    font-weight: 400;
+    position: relative;
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: all 0.5s;
+    color: black;
+  }
+  
+  button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+}

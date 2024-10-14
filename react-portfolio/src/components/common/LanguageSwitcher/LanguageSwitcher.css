@@ -1,0 +1,33 @@
+.language-switcher {
+    display: flex;
+    gap: 10px; /* Adjust spacing between flags */
+  }
+  
+  .flag-icon {
+    width: 30px; /* Set the size of the flag */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.2s; /* Optional: Add a hover effect */
+  }
+  
+  .flag-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge flag on hover */
+  }
+
+@media only screen and (max-width: 1023px) {
+  .flag-icon{
+    height: 50px;
+    width: 50px;
+    margin: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .flag-icon{
+    height: 30px;
+    width: 30px;
+    margin: 0 20px;
+  }
+}
+  
+  

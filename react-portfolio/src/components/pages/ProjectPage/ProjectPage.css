@@ -1,0 +1,98 @@
+.main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px; /* Adds space between the grid items */
+  align-items: start; /* Aligns items at the top of the container */
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+  height: 100%; /* Makes sure all project containers are of equal height */
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1; /* Allows the card to expand to fill the flex container */
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  margin-top: -20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.project-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures spacing is distributed */
+  flex: 1; /* Makes sure content takes up remaining space */
+}
+
+.fa-link{
+  color: white;
+}
+
+.project h2 {
+  margin-bottom: 30px; /* Adjusted for better spacing */
+  text-align: center;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+.project p {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.project a {
+  align-self: center;
+  text-decoration: none;
+}
+
+.project button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    grid-template-columns: 1fr; /* Stacks the projects vertically on smaller screens */
+  }
+
+  .project {
+    padding: 10px;
+  }
+
+  .project-description {
+    padding: 10px;
+  }
+
+  .project button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+  

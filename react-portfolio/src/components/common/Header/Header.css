@@ -1,0 +1,128 @@
+/* Header styling */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: black;
+    color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.header-navigation {
+    margin: 0 1em;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.header-navigation:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: width 0.3s;
+}
+
+.header-navigation:hover:after {
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    #menu-button,
+    #close-button {
+        display: none !important; 
+}
+}
+
+@media only screen and (max-width: 1023px) {
+    header nav ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 100px 0;
+        position: fixed;
+        font-size: 1.5em;
+        top: 0;
+        right: 0;
+        width: 50%; /* Adjust width as per design */
+        height: 100vh;
+        background-color: #010409;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 101;
+    }
+
+    .header-navigation,
+    #contact-button button {
+        width: 100%; /* Ensures full width to align text centrally */
+        text-align: center; /* Aligns text centrally within the block */
+        margin: 30px 0; /* Provides consistent margin */
+    }
+
+    header nav ul button{
+        font-size: .75em;
+        margin-bottom: 50px;
+    }
+
+    header nav ul.show-menu {
+        transform: translateX(0);
+    }
+
+    .header-navigation {
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #menu-button {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: white;
+        z-index: 102;
+    }
+
+    #close-button {
+        display: none; /* Initially hide the close button */
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: white;
+        z-index: 103;
+    }
+
+    #menu-button,
+    #close-button {
+        font-size: 2em;
+    }
+
+    #close-button.show {
+        display: block; /* Show close button when menu is open */
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    header nav ul {
+        width: 70%;
+    }
+  }
+
