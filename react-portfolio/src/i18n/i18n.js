@@ -54,6 +54,13 @@ i18n
           "AT result": "The site effectively represents our brand identity and has begun to generate leads.",
           "AT reflection": "Building this site was not only about showcasing services but also about embodying the core values and capabilities of our agency.",
           "reflection": "Reflection",
+          /* Arkaden */
+          "project3": "Developing Arkaden's Website",
+          "Arkaden overview": "Recently collaborated with Arkaden Kolding, a popular local bar and community hub, to enhance their digital presence beyond social media.",
+          "Arkaden challenge": "Arkaden needed to expand their reach and capture a broader audience by transitioning from a Facebook-only presence to a comprehensive website.",
+          "Arkaden solution": "I developed a user-friendly, minimalistic website with subtle color contrasts and simple navigation, focusing on the atmosphere and community feel of Arkaden.",
+          "Arkaden result": "The new website successfully reflects the welcoming and engaging environment of Arkaden Kolding, making it appealing and accessible to both new and existing patrons.",
+          "Arkaden reflection": "Working on the Arkaden website was a fulfilling experience as it involved transforming a place close to my heart into a vibrant digital hub.",
           // Contact page
           "full name": "Full Name",
           "email address": "Email address",
@@ -110,6 +117,13 @@ i18n
           "AT result": "A webhely hatékonyan képviseli márkaidentitásunkat és elkezdett érdeklődőket generálni.",
           "AT reflection": "Ennek a webhelynek a felépítése nemcsak a szolgáltatások bemutatásáról szólt, hanem arról is, hogy megtestesítsük ügynökségünk alapvető értékeit és képességeit.",    
           "reflection": "Reflektálás",
+          /* Arkaden */
+          "project3": "Arkaden weboldal fejlesztés",
+          "Arkaden overview": "Együttműködtem az Arkaden Koldinggal, egy népszerű helyi bárral és közösségi központtal, hogy digitális jelenlétüket erősítsem.",
+          "Arkaden challenge": "Az Arkadennek szélesebb közönséget kellett elérnie és a Facebook jelenlétüket egy weboldalra szerették bővíteni.",
+          "Arkaden solution": "Kifejlesztettem egy felhasználóbarát, minimalista weboldalt, finom színkontrasztokkal és egyszerű navigációval, amely az Arkaden közösségi hangulatára és atmoszférájára összpontosít.",
+          "Arkaden result": "Az új weboldal sikeresen tükrözi az Arkaden Kolding barátságos környezetét, vonzóvá és hozzáférhetővé téve azt új és meglévő látogatók számára.",
+          "Arkaden reflection": "Az Arkaden weboldalának kifejlesztése kielégítő élmény volt, mivel a szívemhez közel álló helyet változtattam át vibráló digitális központtá.",
           // Contact page
           "full name": "Teljes Név",
           "email address": "Email cím",

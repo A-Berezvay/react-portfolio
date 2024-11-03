@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'; // Translation
 import './ProjectPage.css'; // Ensure to create a corresponding CSS file for styles
 import NatalieWebsite from '../../images/natalie_website.png';
 import ATLandingPage from '../../images/AT-Digital-Landing-page.png';
+import ArkadenHomePage from '../../images/Arkaden_homepage.png';
 
 function ProjectPage() {
   const { t } = useTranslation();
@@ -51,7 +52,7 @@ function ProjectPage() {
       <section className="project">
         <h2>{t('project3')}</h2>
         <article className="project-card">
-          <Link to="https://www.arkadenkolding.dk/" target="_blank"><img src={ATLandingPage} alt="Arkaden's landing page" /></Link>
+          <Link to="https://www.arkadenkolding.dk/" target="_blank"><img src={ArkadenHomePage} alt="Arkaden's landing page" /></Link>
           <div className="project-content">
             <h3>{t('project overview')}</h3>
             <p>{t('Arkaden overview')}</p>
