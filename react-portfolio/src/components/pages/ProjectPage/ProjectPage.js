@@ -6,6 +6,7 @@ import './ProjectPage.css'; // Ensure to create a corresponding CSS file for sty
 import NatalieWebsite from '../../images/natalie_website.png';
 import ATLandingPage from '../../images/AT-Digital-Landing-page.png';
 import ArkadenHomePage from '../../images/Arkaden_homepage.png';
+import S700 from '../../images/S700.jpeg';
 
 function ProjectPage() {
   const { t } = useTranslation();
@@ -65,6 +66,25 @@ function ProjectPage() {
             <h3>{t('reflection')}</h3>
             <p>{t('Arkaden reflection')}</p>
             <Link to="https://www.arkadenkolding.dk/" target="_blank"><i class="fa-solid fa-link"></i></Link>
+          </div>
+        </article>
+      </section>
+      <section className="project">
+        <h2>{t('project4')}</h2>
+        <article className="project-card">
+          <Link to="https://github.com/A-Berezvay/POS-Development" target="_blank"><img src={S700} alt="Arkaden's landing page" /></Link>
+          <div className="project-content">
+            <h3>{t('project overview')}</h3>
+            <p>{t('POS overview')}</p>
+            <h3>{t('challenge')}</h3>
+            <p>{t('POS challenge')}</p>
+            <h3>{t('solution')}</h3>
+            <p>{t('POS solution')}</p>
+            <h3>{t('result')}</h3>
+            <p>{t('POS result')}</p>
+            <h3>{t('reflection')}</h3>
+            <p>{t('POS reflection')}</p>
+            <Link to="https://github.com/A-Berezvay/POS-Development" target="_blank"><i class="fa-solid fa-link"></i></Link>
           </div>
         </article>
       </section>

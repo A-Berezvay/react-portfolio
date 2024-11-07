@@ -61,6 +61,13 @@ i18n
           "Arkaden solution": "I developed a user-friendly, minimalistic website with subtle color contrasts and simple navigation, focusing on the atmosphere and community feel of Arkaden.",
           "Arkaden result": "The new website successfully reflects the welcoming and engaging environment of Arkaden Kolding, making it appealing and accessible to both new and existing patrons.",
           "Arkaden reflection": "Working on the Arkaden website was a fulfilling experience as it involved transforming a place close to my heart into a vibrant digital hub.",
+          /* POS Project */
+          "project4": "eMenu Custom POS system design",
+          "POS overview": "Development of a robust, user-friendly Point of Sale (POS) system tailored for retail businesses to streamline transactions and inventory management.",
+          "POS challenge": "The client needed a POS system that could integrate seamlessly with a Stripe hardware (S700), and handle high transaction volumes, and provide real-time inventory updates.",
+          "POS solution": "I developed a custom mobile-first POS system using React, ensuring it was compatible with the provided hardware and could sync with the client's inventory database for live updates.",
+          "POS result": "The new system improved checkout speeds by 30%, reduced errors in inventory management by 25%, and enhanced overall customer satisfaction due to faster service.",
+          "POS reflection": "This project was a significant learning opportunity in understanding the real-time needs of retail operations and how technology can be leveraged to enhance efficiency and accuracy in high-pressure environments.",
           // Contact page
           "full name": "Full Name",
           "email address": "Email address",
@@ -124,6 +131,13 @@ i18n
           "Arkaden solution": "Kifejlesztettem egy felhasználóbarát, minimalista weboldalt, finom színkontrasztokkal és egyszerű navigációval, amely az Arkaden közösségi hangulatára és atmoszférájára összpontosít.",
           "Arkaden result": "Az új weboldal sikeresen tükrözi az Arkaden Kolding barátságos környezetét, vonzóvá és hozzáférhetővé téve azt új és meglévő látogatók számára.",
           "Arkaden reflection": "Az Arkaden weboldalának kifejlesztése kielégítő élmény volt, mivel a szívemhez közel álló helyet változtattam át vibráló digitális központtá.",
+          /* POS Project */
+          "project4": "eMenu Egyedi POS rendszer tervezése",
+          "POS overview": "Egy robusztus, felhasználóbarát Point of Sale (POS) rendszer fejlesztése kiskereskedelmi vállalkozások számára, amely egyszerűsíti a tranzakciókat és az árukészlet-kezelést.",
+          "POS challenge": "Az ügyfélnek olyan POS rendszerre volt szüksége, amely problémamentesen integrálódik egy Stripe hardverrel (S700), kezelni tudja a nagy tranzakciós volumeneket és valós idejű árukészlet-frissítéseket biztosít.",
+          "POS solution": "Egy egyedi, mobil-először szemléletű POS rendszert fejlesztettem React segítségével, biztosítva, hogy kompatibilis legyen a megadott hardverrel és szinkronizálódjon az ügyfél árukészlet adatbázisával a frissítésekhez.",
+          "POS result": "Az új rendszer 30%-kal növelte a pénztári tranzakciók sebességét, 25%-kal csökkentette az árukészlet-kezelési hibákat és jelentősen növelte az ügyfelek elégedettségét a gyorsabb kiszolgálás révén.",
+          "POS reflection": "Ez a projekt jelentős tanulási lehetőséget biztosított a kiskereskedelmi műveletek valós idejű igényeinek megértésében és abban, hogyan lehet a technológiát felhasználni az hatékonyság és pontosság növelésére magas nyomás alatti környezetekben.",
           // Contact page
           "full name": "Teljes Név",
           "email address": "Email cím",

@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-evenly;
     padding: 20px 20%;
+    position: absolute;
+    width: 100%;
   }
   
   .footer i {
