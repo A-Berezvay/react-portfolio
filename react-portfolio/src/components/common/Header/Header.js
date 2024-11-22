@@ -29,6 +29,7 @@ const Header = () => {
                 <i id="menu-button" className="fa-solid fa-bars" onClick={toggleMenu} style={{ display: isMenuOpen ? 'none' : 'block' }}></i>
                 <ul className={isMenuOpen ? 'show-menu' : ''}>
                     <li><a onClick={handleAboutClick} className="header-navigation">{t('about')}</a></li>
+                    <li><Link to="/blog" className="header-navigation">Blog</Link></li>
                     <li><Link to="/project" className="header-navigation">{t('projects')}</Link></li>
                     <li><Link to="/contact"><button>{t('contact')}</button></Link></li>
                     <LanguageSwitcher />

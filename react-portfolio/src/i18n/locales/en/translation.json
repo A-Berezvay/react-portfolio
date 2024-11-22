@@ -1,0 +1,81 @@
+{
+    "recent blog posts": "Recent Blog Posts",
+    "blogPosts": {
+        "post1": {
+          "title": "From hospitality to code",
+          "content": "I couldn’t imagine that one day I’ll start a blog and write about my journey of becoming a web developer. (Well… I’m still an aspiring web developer, but you know what I mean) It’s been a journey full of challenges, learning, growth and it is by far not the end of it. If you’re considering following this path or you're just curious about the path to becoming a developer, this post is for you. Hospitality is rewarding in its own way - and I still enjoy some part of it until this day. But I started to feel stuck in a routine. Lack of creative challenges and the sense that I wasn’t growing anymore led me to explore other options. Something with computers always clicked with me - little did I know that coding was that much fun. Deciding to learn programming wasn’t easy. It’s important to note that the decision was personal and not something that people expected of me. I always had a hard time with mathematics and thus always thought that programming shouldn’t be for me because it's full of maths and calculations. Now, there is some truth to that but not every part of web development is calculations. Designing a website has nothing to do with it nor the aesthetic or structure behind.  With every obstacle I faced I became more interested in the topic. That was the turning point where I had a feeling that that is something I want to pursue. Even as a hobby or just in my free time. Learning to code while working is no joke. I was constantly tired. There were nights when I questioned my decision… I learned that persistence is key. I started using online resources such as Codecademy, freeCodeCamp and youtube for support. Also agile project management helped me a lot, to learn that it’s easier to break down a big project into smaller pieces to stay focused. My first big win as a developer was my first website that I created for my portfolio to showcase my skills (atdigitalconsultancy.co.uk). After I finished it I was so proud. The goal of this project was to build an agency that can function later on as a hub for me to conduct business. It was challenging to create something from scratch that I had never done before, but I managed it. It’s not perfect but in my opinion it is just as good as the other agencies out there. And done is always better than perfect. I’m currently working as a part-time chef and a freelance web developer, helping individuals and businesses to achieve their goals in the digital field with UX design, web design, web development, and software development. I work mainly with React, HTML, CSS. Freelancing allows me to apply what I’ve learned to real-world problems while continuously growing skills. I’m currently diving deeper into backend development to become a full-stack developer. My goal is to eventually work as a developer at a company that values creativity, or perhaps expand my freelancing to include consulting.",
+          "description": "Lorem ipsum",
+          "date": "12.12.2000",
+          "image": "/images/webdev.jpg"
+        },
+        "post2": {
+          "title": "My Second Blog Post",
+          "content": "This is the content of my second blog post written in markdown-like syntax, rendered dynamically using i18n."
+        }
+    },
+
+    "about title": "About - Albert Berezvay",
+    "projects title": "Projects - Albert Berezvay",
+    "contact title": "Contact - Albert Berezvay",
+
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+
+    "title": "Welcome to my Portfolio",
+    "introduction": "I am an aspiring Web Developer. To have a look at my work navigate to the \"Projects\" tab and browse. I always welcome constructive feedback so please get in touch if you have some.🤗",
+
+    "my-journey": "My Journey",
+    "my-journey-description": "Born and raised in <b>Budapest</b>, my journey began with an interest in <b>hospitality</b>, a field that I studied in secondary school. After graduation I tried my luck and moved to <b>London</b> to gain experience, meet new people and see other cultures. This experience proved to be transformative, leading to a realisation that my passion lies in <b>digital web development</b>. Motivated by this newfound interest I pursued an <b>AP degree</b> in <b>Multimedia Design & Communication</b> at <b>IBA</b> in <b>Kolding, Denmark</b>. As soon as I’ve was introduced to the world of <b>coding</b>, I’ve been building not only smaller pages, but a bigger <b>dream of helping people in the digital world</b>.",
+    "my skills": "My skills",
+    "what i do": "What I do",
+    "web development": "Web Development",
+    "web development description": "From Content Management Systems to Hand-coding, I have the ability to build <b>SEO optimised websites</b>, for diverse needs. This Portfolio itself was initially crafted with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b> but for scalability reasons I transitioned to <b>React</b>. With sharp eye for details and design I ensure that every website I develop aligns with the <b>envisioned aesthetic.</b>",
+    "ui/ux": "UI/UX",
+    "ui/ux description": "Imagine a digital space that <b>feels</b> like a <b>cozy</b> coffee shop; <b>welcoming</b> and <b>easy to navigate</b>. That’s what I aim for with my UI/UX design. I listen to your needs and craft experiences that make your visitors feel right at home, ensuring they find what they need with a smile.",
+    "web design": "Web Design",
+    "web design description": "Your <b>website is</b> the digital <b>face of your brand</b>, and it should be as welcoming and engaging as you are. I blend <b>colors</b>, <b>graphics</b>, and <b>typography</b> to not just catch the eye, but <b>to tell a story</b> and evoke emotions. <b>Let's collaborate</b> to make your website a place where visitors love to linger.",
+    "about cta": "Let´s work <b>together</b>",
+    "about cta button": "Contact",
+
+
+    "project1": "Website Development for Natalie",
+    "project overview": "Project overview",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "result": "Result",
+    "Natalie overview": "Natalie is an English-Italian translator who needed help integrating a language selector into her existing website.",
+    "Natlaie challenge": "The site needed to allow users to switch seamlessly between English and Italian, enhancing accessibility and user experience.",
+    "Natalie solution": "Implemented a dynamic language selector using JavaScript that updates text elements on the page.",
+    "Natalie result": "The new feature has improved user engagement and broadened the site’s audience. Natali reported increased satisfaction from her international clients.",
+    "project image": "(Click on the image to see the website)",
+
+    "project2": "Building an Agency",
+    "AT overview": "Co-Founded a digital transformation and web development agency to fill a market gap for comprehensive digital services.",
+    "AT challenge": "To create a robust, scalable website that showcases our services and attracts potential clients.",
+    "AT solution": "Developed the site using HTML, CSS, JavaScript, integrated advanced SEO techniques, and ensured responsive design across all devices.",
+    "AT result": "The site effectively represents our brand identity and has begun to generate leads.",
+    "AT reflection": "Building this site was not only about showcasing services but also about embodying the core values and capabilities of our agency.",
+    "reflection": "Reflection",
+
+    "project3": "Developing Arkaden's Website",
+    "Arkaden overview": "Recently collaborated with Arkaden Kolding, a popular local bar and community hub, to enhance their digital presence beyond social media.",
+    "Arkaden challenge": "Arkaden needed to expand their reach and capture a broader audience by transitioning from a Facebook-only presence to a comprehensive website.",
+    "Arkaden solution": "I developed a user-friendly, minimalistic website with subtle color contrasts and simple navigation, focusing on the atmosphere and community feel of Arkaden.",
+    "Arkaden result": "The new website successfully reflects the welcoming and engaging environment of Arkaden Kolding, making it appealing and accessible to both new and existing patrons.",
+    "Arkaden reflection": "Working on the Arkaden website was a fulfilling experience as it involved transforming a place close to my heart into a vibrant digital hub.",
+
+    "project4": "eMenu Custom POS system design",
+    "POS overview": "Development of a robust, user-friendly Point of Sale (POS) system tailored for retail businesses to streamline transactions and inventory management.",
+    "POS challenge": "The client needed a POS system that could integrate seamlessly with a Stripe hardware (S700), and handle high transaction volumes, and provide real-time inventory updates.",
+    "POS solution": "I developed a custom mobile-first POS system using React, ensuring it was compatible with the provided hardware and could sync with the client's inventory database for live updates.",
+    "POS result": "The new system improved checkout speeds by 30%, reduced errors in inventory management by 25%, and enhanced overall customer satisfaction due to faster service.",
+    "POS reflection": "This project was a significant learning opportunity in understanding the real-time needs of retail operations and how technology can be leveraged to enhance efficiency and accuracy in high-pressure environments.",
+
+    "full name": "Full Name",
+    "email address": "Email address",
+    "subject": "Subject",
+    "subject placeholder": "Create a portfolio website",
+    "message": "Message",
+    "submit button": "Submit"
+  }

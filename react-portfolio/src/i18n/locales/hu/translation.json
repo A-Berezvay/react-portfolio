@@ -1,0 +1,78 @@
+{   
+    "recent blog posts": "Legutóbbi Blogcikkek",
+    "blogPosts": {
+      "post1": {
+        "title": "A Webfejlesztővé Válás Útja",
+        "content": "A webfejlesztővé válás útja olyan, mint egy kaland - tele kihívásokkal, váratlan kitérőkkel, és jutalmazó mérföldkövekkel. Legyen szó kezdő hobbistáról vagy tapasztalt szakemberről, a webfejlesztés világa mindenkinek tartogat valamit.",
+        "image": "/images/webdev.jpg"
+      },
+      "post2": {
+        "title": "A Második Blogbejegyzésem",
+        "content": "Ez a második blogbejegyzésem tartalma, amely markdown-szerű szintaxissal van írva, dinamikusan renderelve az i18n használatával."
+      }
+    },
+
+    "about title": "Rólam - Albert Berezvay",
+    "projects title": "Projektek - Albert Berezvay",
+    "contact title": "Kapcsolat - Albert Berezvay",
+
+    "about": "Rólam",
+    "projects": "Projektek",
+    "contact": "Kapcsolat",
+
+    "title": "Üdv a portfóliomon",
+    "introduction": "Egy törekvő webfejlesztő vagyok. Ha meg szeretnéd nézni a munkáimat, navigálj a \"Projektek\" fülre és böngéssz. Mindig szívesen fogadom az építő jellegű visszajelzéseket, szóval kérlek, vedd fel velem a kapcsolatot, ha van valami. 🤗",
+
+    "my-journey": "Történetem",
+    "my-journey-description": "<b>Budapesten</b> születtem és nőttem fel, az utam pedig a <b>vendéglátás</b> iránti érdeklődéssel kezdődött, amelyet középiskolában tanultam. Az érettségi megszerzése után kipróbáltam a szerencsémet, és <b>Londonba</b> költöztem, hogy tapasztalatot szerezzek, új emberekkel találkozzak és más kultúrákat ismerjek meg. Ez az élmény sorsfordítónak bizonyult, mivel rájöttem, hogy a szenvedélyem a <b>digitális webfejlesztésben</b> rejlik. Az új érdeklődésem ösztönzött, hogy a <b>dániai Koldingban</b>, az IBA-n szerezzek egy <b>AP</b> diplomát <b>Multimédia Dizájn & Kommunikáció</b> szakon. Amint megismerkedtem a <b>programozás</b> világával, nemcsak kisebb oldalakat kezdtem építeni, hanem egy nagyobb <b>álmot</b> is, hogy <b>embereknek segítsek navigálni a digitális világban</b>.",
+    "my skills": "A képességeim",
+    "what i do": "Mit csinálok",
+    "web development": "Webfejlesztés",
+    "web development description": "A tartalomkezelő rendszerektől a kézi kódolásig, képes vagyok <b>SEO-optimalizált weboldalakat építeni</b> különböző igényekhez. Ez a portfólió eredetileg <b>HTML</b>, <b>CSS</b> és <b>JavaScript</b> segítségével készült, de a skálázhatóság érdekében <b>React</b>-ra váltottam. Jó szemem van a részletekhez és a dizájnhoz, így minden weboldal amit készitek megfelel az <b>elképzelt esztétikának</b>.",
+    "ui/ux": "UI/UX",
+    "ui/ux description": "Képzelj el egy digitális teret, ami <b>olyan</b>, mint egy <b>kávézó</b>; <b>hívogató</b> és <b>könnyen navigálható</b>. Erre törekszem a UI/UX tervezéssel. Meghallgatom az igényeket, és olyan élményeket alakítok ki, amelyeken a látogatók otthonosan érzhetik magukat, biztosítva, hogy mosollyal találják meg, amit keresnek.",
+    "web design": "Web dizájn",
+    "web design description": "A <b>weboldal</b> a <b>digitális arca</b> a <b>márkádnak</b>, és éppoly <b>hívogatónak  kell lennie</b>, mint <b>Neked</b>. <b>Színeket</b>, <b>grafikákat</b> és <b>tipográfiát</b> ötvözök, hogy ne csak megragadjam a figyelmet, hanem <b>történetet meséljek</b> el és érzelmeket idézzek elő. <b>Dolgozzunk együtt</b>, hogy a weboldalad olyan hely legyen, ahol a látogatók szeretnek időt tölteni.",
+    "about cta": "Dolgozzunk <b>együtt</b>",
+    "about cta button": "Lépj kapcsolatba",
+
+    "project1": "Weboldal fejlesztés Natalie-nak",
+    "project overview": "Projekt áttekintés",
+    "challenge": "Kihivás",
+    "solution": "Megoldás",
+    "result": "Eredmény",
+    "Natalie overview": "Natalie egy angol-olasz fordító, aki segítséget kért egy nyelvválasztó integrálásában a már meglévő weboldalába.",
+    "Natlaie challenge": "A weboldalnak lehetővé kellett tennie a felhasználók számára, hogy zökkenőmentesen váltsanak angol és olasz nyelv között, javítva az elérhetőséget és a felhasználói élményt.",
+    "Natalie solution": "Dinamikus nyelvválasztót valósítottam meg JavaScript segítségével, amely valós időben frissíti az oldal szövegeit.",
+    "Natalie result": "Az új funkció javította a felhasználói elkötelezettséget és szélesítette a weboldal közönségét. Natalie megnövekedett elégedettségről számolt be nemzetközi ügyfelei részéről.",
+    "project image": "(Kattints a képre, hogy lásd a weboldalt)",
+
+    "project2": "Egy ügynökség létrehozása",
+    "AT overview": "Társalapítója vagyok egy digitális transzformációs és webfejlesztő ügynökségnek. Célunk hogy betöltsük az átfogó digitális szolgáltatások iránti piaci rést.",
+    "AT challenge": "Egy erős, skálázható weboldal létrehozása, amely bemutatja szolgáltatásainkat és vonzza a potenciális ügyfeleket.",
+    "AT solution": "A webhelyet HTML, CSS, JavaScript használatával fejlesztettem, fejlett SEO technikákat integráltam, és biztosítottam a reszponzív dizájnt minden eszközön.",
+    "AT result": "A webhely hatékonyan képviseli márkaidentitásunkat és elkezdett érdeklődőket generálni.",
+    "AT reflection": "Ennek a webhelynek a felépítése nemcsak a szolgáltatások bemutatásáról szólt, hanem arról is, hogy megtestesítsük ügynökségünk alapvető értékeit és képességeit.",    
+    "reflection": "Reflektálás",
+
+    "project3": "Arkaden weboldal fejlesztés",
+    "Arkaden overview": "Együttműködtem az Arkaden Koldinggal, egy népszerű helyi bárral és közösségi központtal, hogy digitális jelenlétüket erősítsem.",
+    "Arkaden challenge": "Az Arkadennek szélesebb közönséget kellett elérnie és a Facebook jelenlétüket egy weboldalra szerették bővíteni.",
+    "Arkaden solution": "Kifejlesztettem egy felhasználóbarát, minimalista weboldalt, finom színkontrasztokkal és egyszerű navigációval, amely az Arkaden közösségi hangulatára és atmoszférájára összpontosít.",
+    "Arkaden result": "Az új weboldal sikeresen tükrözi az Arkaden Kolding barátságos környezetét, vonzóvá és hozzáférhetővé téve azt új és meglévő látogatók számára.",
+    "Arkaden reflection": "Az Arkaden weboldalának kifejlesztése kielégítő élmény volt, mivel a szívemhez közel álló helyet változtattam át vibráló digitális központtá.",
+
+    "project4": "eMenu Egyedi POS rendszer tervezése",
+    "POS overview": "Egy robusztus, felhasználóbarát Point of Sale (POS) rendszer fejlesztése kiskereskedelmi vállalkozások számára, amely egyszerűsíti a tranzakciókat és az árukészlet-kezelést.",
+    "POS challenge": "Az ügyfélnek olyan POS rendszerre volt szüksége, amely problémamentesen integrálódik egy Stripe hardverrel (S700), kezelni tudja a nagy tranzakciós volumeneket és valós idejű árukészlet-frissítéseket biztosít.",
+    "POS solution": "Egy egyedi, mobil-először szemléletű POS rendszert fejlesztettem React segítségével, biztosítva, hogy kompatibilis legyen a megadott hardverrel és szinkronizálódjon az ügyfél árukészlet adatbázisával a frissítésekhez.",
+    "POS result": "Az új rendszer 30%-kal növelte a pénztári tranzakciók sebességét, 25%-kal csökkentette az árukészlet-kezelési hibákat és jelentősen növelte az ügyfelek elégedettségét a gyorsabb kiszolgálás révén.",
+    "POS reflection": "Ez a projekt jelentős tanulási lehetőséget biztosított a kiskereskedelmi műveletek valós idejű igényeinek megértésében és abban, hogyan lehet a technológiát felhasználni az hatékonyság és pontosság növelésére magas nyomás alatti környezetekben.",
+
+    "full name": "Teljes Név",
+    "email address": "Email cím",
+    "subject": "Tárgy",
+    "subject placeholder": "Egy portfólió weboldal készítése",
+    "message": "Üzenet",
+    "submit button": "Küldés"
+  }
